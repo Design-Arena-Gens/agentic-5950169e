@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Arena, BattleConfig, createDefaultBattle } from '@/sim/arena';
-import { BettingPanel } from '@/ui/BettingPanel';
+import { BettingPanel } from '@/components/ui/BettingPanel';
 
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
